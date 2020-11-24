@@ -43,22 +43,22 @@
 module.exports = {
   service1: {
     api: '/listings/:listing_id/carousel',
-    url: 'http://18.222.149.170:3000/:listing_id',
+    url: 'http://18.222.149.170:3000',
     bundle: 'bundle.js',
   },
   service2: {
     api: '/listings/:listing_id/tours/*',
-    url: 'http://54.187.26.30:3002/:listing_id',
+    url: 'http://54.187.26.30:3002',
     bundle: 'bundle.js',
   },
   service3: {
     api: '/listings/:listing_id/reviews/*',
-    url: 'http://18.219.118.49:3003/:listing_id',
+    url: 'http://18.219.118.49:3003',
     bundle: 'bundle.js',
   },
   service4: {
     api: '/listings/:listing_id/questions/*',
-    url: 'http://54.189.51.184:3004/:listing_id',
+    url: 'http://54.189.51.184:3004',
     bundle: 'bundle.js',
   },
 };
