@@ -58,7 +58,7 @@ module.exports = {
   },
   service4: {
     api: '/listings/:listing_id/questions/*',
-    url: 'http://54.189.51.184:3004',
+    url: 'http://18.237.144.53:3004',
     bundle: 'bundle.js',
   },
 };
